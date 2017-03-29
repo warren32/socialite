@@ -94,7 +94,7 @@ class FacebookProvider extends AbstractProvider implements ProviderInterface
      */
     protected function parseAccessToken($body)
     {
-      
+       
         return parent::parseAccessToken($body);
     }
 
